@@ -37,6 +37,7 @@ dependencies {
             "org.aeonbits.owner:owner:1.0.12",
             "org.assertj:assertj-core:3.19.0",
             "org.slf4j:slf4j-simple:1.7.29",
+            'io.github.bonigarcia:webdrivermanager:5.1.1',
             "org.junit.jupiter:junit-jupiter:$junitVersion")
 }
 
