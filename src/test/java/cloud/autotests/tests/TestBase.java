@@ -26,8 +26,6 @@ public class TestBase {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         CredentialsConfig config = ConfigFactory.create(CredentialsConfig.class);
 
-        Configuration.holdBrowserOpen = true;
-
         Configuration.baseUrl = System.getProperty("baseUrl", "https://catalog-plans.ru/");
         Configuration.browser = System.getProperty("browser", "Chrome");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
@@ -41,7 +39,6 @@ public class TestBase {
     public void beforeEach() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        Configuration.holdBrowserOpen = true;
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
         Configuration.browserCapabilities = capabilities;
