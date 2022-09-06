@@ -1,0 +1,161 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "cloud.autotests.tests",
+    "children" : [ {
+      "name" : "GeneratedTests",
+      "children" : [ {
+        "name" : "generatedTest",
+        "uid" : "fbca9563de7290b3",
+        "parentUid" : "21dfe66c16abc92e9b23ca46c7484bd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662378424892,
+          "stop" : 1662378440994,
+          "duration" : 16102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "21dfe66c16abc92e9b23ca46c7484bd2"
+    }, {
+      "name" : "MainPage",
+      "children" : [ {
+        "name" : "titleTest",
+        "uid" : "f73cb484b6f78738",
+        "parentUid" : "e3d598147ebecdcc53a95da599c73b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662378758796,
+          "stop" : 1662378773164,
+          "duration" : 14368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TitleTest",
+        "uid" : "a76f3ee5bdc2a035",
+        "parentUid" : "e3d598147ebecdcc53a95da599c73b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662378803759,
+          "stop" : 1662378809053,
+          "duration" : 5294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "HouseTest",
+        "uid" : "9de3866b28221db0",
+        "parentUid" : "e3d598147ebecdcc53a95da599c73b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662379793199,
+          "stop" : 1662379800369,
+          "duration" : 7170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "LinkVkontakteTest",
+        "uid" : "f0ebd0db856e8cbd",
+        "parentUid" : "e3d598147ebecdcc53a95da599c73b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662380031876,
+          "stop" : 1662380038809,
+          "duration" : 6933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LinkYandexTest",
+        "uid" : "48d2fb1516e6abce",
+        "parentUid" : "e3d598147ebecdcc53a95da599c73b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662380219612,
+          "stop" : 1662380226085,
+          "duration" : 6473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3d598147ebecdcc53a95da599c73b2a"
+    }, {
+      "name" : "HouseTest",
+      "children" : [ {
+        "name" : "HouseTest",
+        "uid" : "c99cae780a910336",
+        "parentUid" : "e3a8f38a30d205c676c06572d46c7411",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662386386780,
+          "stop" : 1662386394006,
+          "duration" : 7226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 61,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3a8f38a30d205c676c06572d46c7411"
+    }, {
+      "name" : "SearchTest",
+      "children" : [ {
+        "name" : "HouseTest",
+        "uid" : "77bfb0d714e2703e",
+        "parentUid" : "857dc3c1473d722ea3f9cc76a9cf1f0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662386532652,
+          "stop" : 1662386557190,
+          "duration" : 24538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "857dc3c1473d722ea3f9cc76a9cf1f0f"
+    } ],
+    "uid" : "cloud.autotests.tests"
+  } ]
+}

@@ -1,0 +1,134 @@
+{
+  "uid" : "82307169035b3253",
+  "name" : "Проверка поиска",
+  "fullName" : "cloud.autotests.tests.SearchTest.HouseTest",
+  "historyId" : "b50016e430f6025109996867d8198005",
+  "time" : {
+    "start" : 1662386489569,
+    "stop" : 1662386497350,
+    "duration" : 7781
+  },
+  "description" : "Проверка сайта catalog-plans.ru)",
+  "descriptionHtml" : "<p>Проверка сайта catalog-plans.ru)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка сайта catalog-plans.ru)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть https://catalog-plans.ru/",
+      "time" : {
+        "start" : 1662386489595,
+        "stop" : 1662386494072,
+        "duration" : 4477
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть ПРОЕКТЫ ОДНОЭТАЖНЫХ ДОМОВ'",
+      "time" : {
+        "start" : 1662386494072,
+        "stop" : 1662386495316,
+        "duration" : 1244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбрать параметры поиска",
+      "time" : {
+        "start" : 1662386495317,
+        "stop" : 1662386497047,
+        "duration" : 1730
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "проверить цену проекта по заданным поиском параметрам",
+      "time" : {
+        "start" : 1662386497047,
+        "stop" : 1662386497343,
+        "duration" : 296
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.SearchTest]/[method:HouseTest()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMSLMPO"
+  }, {
+    "name" : "thread",
+    "value" : "20644@DESKTOP-EMSLMPO.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.SearchTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.SearchTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "HouseTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.SearchTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82307169035b3253.json",
+  "parameterValues" : [ ]
+}

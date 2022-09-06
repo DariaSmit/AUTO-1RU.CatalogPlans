@@ -1,0 +1,248 @@
+{
+  "uid" : "993ede5a91cf9a75",
+  "name" : "Проверка заголовков в шапке сайта",
+  "fullName" : "cloud.autotests.tests.MainPage.HouseTest",
+  "historyId" : "fc5b33a15822a6fa5743c0654786c24a",
+  "time" : {
+    "start" : 1662379699147,
+    "stop" : 1662379705266,
+    "duration" : 6119
+  },
+  "description" : "Проверка сайта catalog-plans.ru)",
+  "descriptionHtml" : "<p>Проверка сайта catalog-plans.ru)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1662379699004,
+      "stop" : 1662379699101,
+      "duration" : 97
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeEach",
+    "time" : {
+      "start" : 1662379699151,
+      "stop" : 1662379699151,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка сайта catalog-plans.ru)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть https://catalog-plans.ru/",
+      "time" : {
+        "start" : 1662379699156,
+        "stop" : 1662379703061,
+        "duration" : 3905
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://catalog-plans.ru",
+        "time" : {
+          "start" : 1662379699213,
+          "stop" : 1662379703061,
+          "duration" : 3848
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1662379699218,
+            "stop" : 1662379701830,
+            "duration" : 2612
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть 'одноэтажные'",
+      "time" : {
+        "start" : 1662379703061,
+        "stop" : 1662379704145,
+        "duration" : 1084
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.linkText: Telegram\") click()",
+        "time" : {
+          "start" : 1662379703103,
+          "stop" : 1662379704145,
+          "duration" : 1042
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Перейти в ",
+        "time" : {
+          "start" : 1662379704145,
+          "stop" : 1662379704145,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1662379704148,
+      "stop" : 1662379705257,
+      "duration" : 1109
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1662379705257,
+        "stop" : 1662379705257,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d078bbaffa8a5889",
+      "name" : "Last screenshot",
+      "source" : "d078bbaffa8a5889.png",
+      "type" : "image/png",
+      "size" : 2587490
+    }, {
+      "uid" : "bb7947f7f504ba71",
+      "name" : "Page source",
+      "source" : "bb7947f7f504ba71.html",
+      "type" : "text/plain",
+      "size" : 11155
+    }, {
+      "uid" : "782a01c89d451f6c",
+      "name" : "Browser console logs",
+      "source" : "782a01c89d451f6c.bin",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "1681a7c2db31ae29",
+      "name" : "Video",
+      "source" : "1681a7c2db31ae29.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.MainPage]/[method:HouseTest()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMSLMPO"
+  }, {
+    "name" : "thread",
+    "value" : "1432@DESKTOP-EMSLMPO.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.MainPage"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.MainPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "HouseTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.MainPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "993ede5a91cf9a75.json",
+  "parameterValues" : [ ]
+}

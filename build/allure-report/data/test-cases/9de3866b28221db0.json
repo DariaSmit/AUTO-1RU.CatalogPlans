@@ -1,0 +1,316 @@
+{
+  "uid" : "9de3866b28221db0",
+  "name" : "Проверка заголовков в шапке сайта",
+  "fullName" : "cloud.autotests.tests.MainPage.HouseTest",
+  "historyId" : "fc5b33a15822a6fa5743c0654786c24a",
+  "time" : {
+    "start" : 1662379793199,
+    "stop" : 1662379800369,
+    "duration" : 7170
+  },
+  "description" : "Проверка сайта catalog-plans.ru)",
+  "descriptionHtml" : "<p>Проверка сайта catalog-plans.ru)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1662379793059,
+      "stop" : 1662379793152,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeEach",
+    "time" : {
+      "start" : 1662379793202,
+      "stop" : 1662379793202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка сайта catalog-plans.ru)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть https://catalog-plans.ru/",
+      "time" : {
+        "start" : 1662379793206,
+        "stop" : 1662379798083,
+        "duration" : 4877
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://catalog-plans.ru",
+        "time" : {
+          "start" : 1662379793264,
+          "stop" : 1662379798083,
+          "duration" : 4819
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1662379793270,
+            "stop" : 1662379795881,
+            "duration" : 2611
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть 'одноэтажные'",
+      "time" : {
+        "start" : 1662379798083,
+        "stop" : 1662379799289,
+        "duration" : 1206
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.linkText: Telegram\") click()",
+        "time" : {
+          "start" : 1662379798129,
+          "stop" : 1662379799237,
+          "duration" : 1108
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Перейти в ",
+        "time" : {
+          "start" : 1662379799238,
+          "stop" : 1662379799289,
+          "duration" : 51
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".tgme_page_title\") should have(text \"Проекты Коттеджей\")",
+          "time" : {
+            "start" : 1662379799241,
+            "stop" : 1662379799289,
+            "duration" : 48
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1662379799290,
+      "stop" : 1662379800360,
+      "duration" : 1070
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1662379800360,
+        "stop" : 1662379800360,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ae586e80110dca25",
+      "name" : "Last screenshot",
+      "source" : "ae586e80110dca25.png",
+      "type" : "image/png",
+      "size" : 2587490
+    }, {
+      "uid" : "ff0d6a60641d7d62",
+      "name" : "Page source",
+      "source" : "ff0d6a60641d7d62.html",
+      "type" : "text/plain",
+      "size" : 11156
+    }, {
+      "uid" : "b4a85c602e0fa8f2",
+      "name" : "Browser console logs",
+      "source" : "b4a85c602e0fa8f2.bin",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "75a02fbc301f8302",
+      "name" : "Video",
+      "source" : "75a02fbc301f8302.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.MainPage]/[method:HouseTest()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMSLMPO"
+  }, {
+    "name" : "thread",
+    "value" : "10508@DESKTOP-EMSLMPO.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.MainPage"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.MainPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "HouseTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.MainPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "993ede5a91cf9a75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662379699147,
+        "stop" : 1662379705266,
+        "duration" : 6119
+      }
+    }, {
+      "uid" : "8ab2e8f64870fd82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662379649187,
+        "stop" : 1662379655010,
+        "duration" : 5823
+      }
+    }, {
+      "uid" : "43e4253f9daf86c8",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: telegram}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662379540312.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662379540312.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1662379532429,
+        "stop" : 1662379543173,
+        "duration" : 10744
+      }
+    }, {
+      "uid" : "646b3e50d5f8fe9c",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.fab fa-telegram}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662379360097.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662379360097.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".fab fa-telegram\"}",
+      "time" : {
+        "start" : 1662379352191,
+        "stop" : 1662379362434,
+        "duration" : 10243
+      }
+    }, {
+      "uid" : "e63e23cc2818a0c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662378916364,
+        "stop" : 1662378923336,
+        "duration" : 6972
+      }
+    }, {
+      "uid" : "cf013e20fba36681",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.metro-content-14 metro-hov}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662378827067.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662378827067.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".metro-content-14 metro-hov\"}",
+      "time" : {
+        "start" : 1662378819106,
+        "stop" : 1662378829334,
+        "duration" : 10228
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9de3866b28221db0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,265 @@
+{
+  "uid" : "f0ebd0db856e8cbd",
+  "name" : "Проверка вконтакте ссылки",
+  "fullName" : "cloud.autotests.tests.MainPage.LinkVkontakteTest",
+  "historyId" : "99ad3e1a405b4e2ca4993eec3d2193d3",
+  "time" : {
+    "start" : 1662380031876,
+    "stop" : 1662380038809,
+    "duration" : 6933
+  },
+  "description" : "Проверка сайта catalog-plans.ru)",
+  "descriptionHtml" : "<p>Проверка сайта catalog-plans.ru)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1662380031741,
+      "stop" : 1662380031834,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeEach",
+    "time" : {
+      "start" : 1662380031879,
+      "stop" : 1662380031879,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка сайта catalog-plans.ru)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть https://catalog-plans.ru/",
+      "time" : {
+        "start" : 1662380031883,
+        "stop" : 1662380035716,
+        "duration" : 3833
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://catalog-plans.ru",
+        "time" : {
+          "start" : 1662380031945,
+          "stop" : 1662380035716,
+          "duration" : 3771
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1662380031951,
+            "stop" : 1662380034572,
+            "duration" : 2621
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "нажать на кнопку Telegram",
+      "time" : {
+        "start" : 1662380035716,
+        "stop" : 1662380037916,
+        "duration" : 2200
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.linkText: Vkontakte\") click()",
+        "time" : {
+          "start" : 1662380035758,
+          "stop" : 1662380037729,
+          "duration" : 1971
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Проверить заголовок",
+        "time" : {
+          "start" : 1662380037729,
+          "stop" : 1662380037916,
+          "duration" : 187
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".PageCover__infoMain\") should have(text \"Проекты домов и коттеджей\")",
+          "time" : {
+            "start" : 1662380037731,
+            "stop" : 1662380037916,
+            "duration" : 185
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1662380037918,
+      "stop" : 1662380038800,
+      "duration" : 882
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1662380038800,
+        "stop" : 1662380038800,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "296a0e9ff7465ff3",
+      "name" : "Last screenshot",
+      "source" : "296a0e9ff7465ff3.png",
+      "type" : "image/png",
+      "size" : 1284156
+    }, {
+      "uid" : "c129a1d47c925f0b",
+      "name" : "Page source",
+      "source" : "c129a1d47c925f0b.html",
+      "type" : "text/plain",
+      "size" : 662809
+    }, {
+      "uid" : "d05bed86250622af",
+      "name" : "Browser console logs",
+      "source" : "d05bed86250622af.bin",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f77feadf50d6980a",
+      "name" : "Video",
+      "source" : "f77feadf50d6980a.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.MainPage]/[method:LinkVkontakteTest()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMSLMPO"
+  }, {
+    "name" : "thread",
+    "value" : "1584@DESKTOP-EMSLMPO.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.MainPage"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.MainPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "LinkVkontakteTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.MainPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0ebd0db856e8cbd.json",
+  "parameterValues" : [ ]
+}

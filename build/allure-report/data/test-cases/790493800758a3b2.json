@@ -1,0 +1,248 @@
+{
+  "uid" : "790493800758a3b2",
+  "name" : "Проверка сайта коттеджи",
+  "fullName" : "cloud.autotests.tests.GeneratedTests.generatedTest",
+  "historyId" : "89610fb642f8269b83616a96d5441bc7",
+  "time" : {
+    "start" : 1662375815009,
+    "stop" : 1662375828388,
+    "duration" : 13379
+  },
+  "description" : "Soon to be implemented by you (or QA.GURU engineers)",
+  "descriptionHtml" : "<p>Soon to be implemented by you (or QA.GURU engineers)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1662375814881,
+      "stop" : 1662375814969,
+      "duration" : 88
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeEach",
+    "time" : {
+      "start" : 1662375815012,
+      "stop" : 1662375815012,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Soon to be implemented by you (or QA.GURU engineers)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть https://catalog-plans.ru/",
+      "time" : {
+        "start" : 1662375815016,
+        "stop" : 1662375826573,
+        "duration" : 11557
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://catalog-plans.ru/",
+        "time" : {
+          "start" : 1662375815067,
+          "stop" : 1662375826573,
+          "duration" : 11506
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1662375815072,
+            "stop" : 1662375823463,
+            "duration" : 8391
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "// todo: just add selenium action",
+        "time" : {
+          "start" : 1662375826573,
+          "stop" : 1662375826573,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "проверить заголовок \"Каталог проектов▼\"",
+      "time" : {
+        "start" : 1662375826574,
+        "stop" : 1662375826574,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "// todo: just add selenium action",
+        "time" : {
+          "start" : 1662375826574,
+          "stop" : 1662375826574,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1662375826575,
+      "stop" : 1662375828381,
+      "duration" : 1806
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1662375828188,
+        "stop" : 1662375828380,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "321b649ef1205350",
+      "name" : "Last screenshot",
+      "source" : "321b649ef1205350.png",
+      "type" : "image/png",
+      "size" : 312311
+    }, {
+      "uid" : "fdc3832cd50b8664",
+      "name" : "Page source",
+      "source" : "fdc3832cd50b8664.xhtml",
+      "type" : "text/plain",
+      "size" : 266892
+    }, {
+      "uid" : "3db9beaa0eaf3986",
+      "name" : "Browser console logs",
+      "source" : "3db9beaa0eaf3986.txt",
+      "type" : "text/plain",
+      "size" : 289
+    }, {
+      "uid" : "8e5feea139ea1940",
+      "name" : "Video",
+      "source" : "8e5feea139ea1940.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.GeneratedTests]/[method:generatedTest()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMSLMPO"
+  }, {
+    "name" : "thread",
+    "value" : "13980@DESKTOP-EMSLMPO.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.GeneratedTests"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.GeneratedTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "generatedTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.GeneratedTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "790493800758a3b2.json",
+  "parameterValues" : [ ]
+}

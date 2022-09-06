@@ -1,0 +1,677 @@
+{
+  "uid" : "c99cae780a910336",
+  "name" : "Проверка поиска",
+  "fullName" : "cloud.autotests.tests.HouseTest.HouseTest",
+  "historyId" : "ec9f1d4db9de072cbea9982c68e6ef73",
+  "time" : {
+    "start" : 1662386386780,
+    "stop" : 1662386394006,
+    "duration" : 7226
+  },
+  "description" : "Проверка сайта catalog-plans.ru)",
+  "descriptionHtml" : "<p>Проверка сайта catalog-plans.ru)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 61,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка сайта catalog-plans.ru)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть https://catalog-plans.ru/",
+      "time" : {
+        "start" : 1662386386805,
+        "stop" : 1662386390749,
+        "duration" : 3944
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть ПРОЕКТЫ ОДНОЭТАЖНЫХ ДОМОВ'",
+      "time" : {
+        "start" : 1662386390750,
+        "stop" : 1662386392034,
+        "duration" : 1284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбрать параметры поиска",
+      "time" : {
+        "start" : 1662386392035,
+        "stop" : 1662386393704,
+        "duration" : 1669
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "проверить название проекта по заданным поиском параметрам",
+      "time" : {
+        "start" : 1662386393705,
+        "stop" : 1662386393998,
+        "duration" : 293
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.HouseTest]/[method:HouseTest()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMSLMPO"
+  }, {
+    "name" : "thread",
+    "value" : "18576@DESKTOP-EMSLMPO.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.HouseTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.HouseTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "HouseTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.HouseTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4bd2c9a2b43c4a45",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [.col-sm-5 > label:nth-child(1) > .checkmark]: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386363281.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386363281.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>",
+      "time" : {
+        "start" : 1662386351868,
+        "stop" : 1662386363597,
+        "duration" : 11729
+      }
+    }, {
+      "uid" : "cab8aa933f8c3659",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [.col-sm-5 > label:nth-child(1) > .checkmark]: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (560, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386326863.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386326863.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (560, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>",
+      "time" : {
+        "start" : 1662386315593,
+        "stop" : 1662386327101,
+        "duration" : 11508
+      }
+    }, {
+      "uid" : "1915795359c2c2c8",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [.col-sm-5 > label:nth-child(1) > .checkmark]: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386292747.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386292747.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>",
+      "time" : {
+        "start" : 1662386280462,
+        "stop" : 1662386293092,
+        "duration" : 12630
+      }
+    }, {
+      "uid" : "dffcf51a40d6742f",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [.col-sm-5 > label:nth-child(1) > .checkmark]: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386223857.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386223857.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>",
+      "time" : {
+        "start" : 1662386211518,
+        "stop" : 1662386224300,
+        "duration" : 12782
+      }
+    }, {
+      "uid" : "5cd902f06b61e540",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [.col-sm-5 > label:nth-child(1) > .checkmark]: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386181692.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386181692.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>",
+      "time" : {
+        "start" : 1662386169966,
+        "stop" : 1662386182010,
+        "duration" : 12044
+      }
+    }, {
+      "uid" : "e0e1c490fa68e7e",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [.col-sm-5 > label:nth-child(1) > .checkmark]: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386077534.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386077534.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>",
+      "time" : {
+        "start" : 1662386065433,
+        "stop" : 1662386077871,
+        "duration" : 12438
+      }
+    }, {
+      "uid" : "6fc7ecfd7e8245b4",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [.col-sm-5 > label:nth-child(1) > .checkmark]: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386023833.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662386023833.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>",
+      "time" : {
+        "start" : 1662386011815,
+        "stop" : 1662386024162,
+        "duration" : 12347
+      }
+    }, {
+      "uid" : "b9c9cf9357a64b85",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [.col-sm-5 > label:nth-child(1) > .checkmark]: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385928831.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385928831.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>",
+      "time" : {
+        "start" : 1662385916654,
+        "stop" : 1662385929188,
+        "duration" : 12534
+      }
+    }, {
+      "uid" : "5c1bea5b74771fe5",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.bg-f9 cpci-info}\r\nExpected: text \"58-70\"\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385902888.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385902888.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".bg-f9 cpci-info\"}",
+      "time" : {
+        "start" : 1662385888006,
+        "stop" : 1662385903343,
+        "duration" : 15337
+      }
+    }, {
+      "uid" : "3f8e6fd8f1d08706",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.col-xs-4 img}\r\nExpected: interactable\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385853565.0.html\r\nTimeout: 4 s.\r\nCaused by: WebDriverException: chrome not reachable",
+      "time" : {
+        "start" : 1662385841005,
+        "stop" : 1662385874234,
+        "duration" : 33229
+      }
+    }, {
+      "uid" : "ebc665ed2cdbe560",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [.col-sm-5 > label:nth-child(1) > .checkmark]: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385663936.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385663936.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>",
+      "time" : {
+        "start" : 1662385651516,
+        "stop" : 1662385665296,
+        "duration" : 13780
+      }
+    }, {
+      "uid" : "c81ba70eaa2be375",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [.col-sm-5 > label:nth-child(1) > .checkmark]: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385644423.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385644423.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>",
+      "time" : {
+        "start" : 1662385632020,
+        "stop" : 1662385645749,
+        "duration" : 13729
+      }
+    }, {
+      "uid" : "ed7687519ca63733",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.bg-f9 cpci-info}\r\nExpected: text \"58-70\"\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385596006.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385596006.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".bg-f9 cpci-info\"}",
+      "time" : {
+        "start" : 1662385584943,
+        "stop" : 1662385596697,
+        "duration" : 11754
+      }
+    }, {
+      "uid" : "615f3edaf299861b",
+      "status" : "failed",
+      "statusDetails" : "Element should have text \"45-96K1L\" {.mb0}\r\nElement: '<p class=\"text-center mb0\"></p>'\r\nActual value: text=\"\"\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385441762.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385441762.0.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1662385430653,
+        "stop" : 1662385443851,
+        "duration" : 13198
+      }
+    }, {
+      "uid" : "464b2b3670fc0474",
+      "status" : "failed",
+      "statusDetails" : "Element should have text \"45-96K1L\" {.mb0}\r\nElement: '<p class=\"text-center mb0\"></p>'\r\nActual value: text=\"\"\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385420695.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385420695.0.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1662385408763,
+        "stop" : 1662385422067,
+        "duration" : 13304
+      }
+    }, {
+      "uid" : "de4c24376929e6a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662385319519,
+        "stop" : 1662385326456,
+        "duration" : 6937
+      }
+    }, {
+      "uid" : "380745dc90f3167",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [.col-sm-5 > label:nth-child(1) > .checkmark]: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385305722.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385305722.0.html\r\nTimeout: 4 s.\r\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"checkmark\"></span> is not clickable at point (1041, 670). Other element would receive the click: <jdiv class=\"hoverl_a60c\">...</jdiv>",
+      "time" : {
+        "start" : 1662385292836,
+        "stop" : 1662385307048,
+        "duration" : 14212
+      }
+    }, {
+      "uid" : "4247190e07301b3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662385248194,
+        "stop" : 1662385255208,
+        "duration" : 7014
+      }
+    }, {
+      "uid" : "51e92e3e7203d775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662385201668,
+        "stop" : 1662385209744,
+        "duration" : 8076
+      }
+    }, {
+      "uid" : "dd92cf443fc21bb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662385085030,
+        "stop" : 1662385092344,
+        "duration" : 7314
+      }
+    }, {
+      "uid" : "743d45148fceb8df",
+      "status" : "failed",
+      "statusDetails" : "Element should be interactable {.closeIcon_a151}\r\nElement: '<jdiv class=\"closeIcon_a151\" displayed:false></jdiv>'\r\nActual value: hidden, opacity=0.85\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385069365.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662385069365.0.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1662385059581,
+        "stop" : 1662385070384,
+        "duration" : 10803
+      }
+    }, {
+      "uid" : "8ece96122422c14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662385030005,
+        "stop" : 1662385035444,
+        "duration" : 5439
+      }
+    }, {
+      "uid" : "1ae35cb3aa0233d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662384989387,
+        "stop" : 1662384994929,
+        "duration" : 5542
+      }
+    }, {
+      "uid" : "7515e4b02ab5a9d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662384889838,
+        "stop" : 1662384895018,
+        "duration" : 5180
+      }
+    }, {
+      "uid" : "67aa92fb6d62bd30",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.cppi-btn-smeta}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662384720819.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662384720819.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".cppi-btn-smeta\"}",
+      "time" : {
+        "start" : 1662384711763,
+        "stop" : 1662384721680,
+        "duration" : 9917
+      }
+    }, {
+      "uid" : "c1bdd7a53593f9e1",
+      "status" : "failed",
+      "statusDetails" : "Element not found {panel-body}\r\nExpected: editable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662384679826.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662384679826.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"panel-body\"}",
+      "time" : {
+        "start" : 1662384671994,
+        "stop" : 1662384680477,
+        "duration" : 8483
+      }
+    }, {
+      "uid" : "f2fa25ba871f4f82",
+      "status" : "failed",
+      "statusDetails" : "Element not found {panel-body}\r\nExpected: editable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662384627238.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662384627238.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"panel-body\"}",
+      "time" : {
+        "start" : 1662384619120,
+        "stop" : 1662384627567,
+        "duration" : 8447
+      }
+    }, {
+      "uid" : "57a0e110dc5c9cc2",
+      "status" : "failed",
+      "statusDetails" : "Element not found {panel-body}\r\nExpected: editable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662384609967.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662384609967.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"panel-body\"}",
+      "time" : {
+        "start" : 1662384602183,
+        "stop" : 1662384610913,
+        "duration" : 8730
+      }
+    }, {
+      "uid" : "aff95f01df433c3",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.cppi-btn-smeta}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662384363346.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662384363346.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".cppi-btn-smeta\"}",
+      "time" : {
+        "start" : 1662384353477,
+        "stop" : 1662384364212,
+        "duration" : 10735
+      }
+    }, {
+      "uid" : "3ddcd699aa16513e",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.col-xs-12 col-sm-9 col-md-12[2]}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662384077806.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662384077806.0.html\r\nTimeout: 4 s.\r\nCaused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 0",
+      "time" : {
+        "start" : 1662384068771,
+        "stop" : 1662384078599,
+        "duration" : 9828
+      }
+    }, {
+      "uid" : "be8b53f84a15c88a",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.text-uppercase hidden-xs hidden-sm cppi-btn-smeta}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383988231.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383988231.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".text-uppercase hidden-xs hidden-sm cppi-btn-smeta\"}",
+      "time" : {
+        "start" : 1662383978689,
+        "stop" : 1662383989083,
+        "duration" : 10394
+      }
+    }, {
+      "uid" : "b40215944cdf039b",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.cppi-btn-smeta}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383936965.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383936965.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".cppi-btn-smeta\"}",
+      "time" : {
+        "start" : 1662383927321,
+        "stop" : 1662383937841,
+        "duration" : 10520
+      }
+    }, {
+      "uid" : "ee331854463342a6",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@id=\"cpMainContainer\"]/div/div/div[1]/div/div[3]/comment()}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383845368.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383845368.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cpMainContainer\"]/div/div/div[1]/div/div[3]/comment()\"}",
+      "time" : {
+        "start" : 1662383835713,
+        "stop" : 1662383846400,
+        "duration" : 10687
+      }
+    }, {
+      "uid" : "89fc710046bae614",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: /html/body/div[1]/div[2]/section[2]/div/div/div[1]/div/div[3]/a[3]}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383769911.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383769911.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[2]/section[2]/div/div/div[1]/div/div[3]/a[3]\"}",
+      "time" : {
+        "start" : 1662383760178,
+        "stop" : 1662383770964,
+        "duration" : 10786
+      }
+    }, {
+      "uid" : "b4b5eb5d09fddc56",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[@id=\"cpMainContainer\"]/div/div/div[1]/div/div[3]/a[3]}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383686709.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383686709.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cpMainContainer\"]/div/div/div[1]/div/div[3]/a[3]\"}",
+      "time" : {
+        "start" : 1662383677072,
+        "stop" : 1662383687748,
+        "duration" : 10676
+      }
+    }, {
+      "uid" : "cea435fa5779e400",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.linkText: 3D Модель}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383595928.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383595928.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"3D Модель\"}",
+      "time" : {
+        "start" : 1662383586381,
+        "stop" : 1662383596979,
+        "duration" : 10598
+      }
+    }, {
+      "uid" : "d92b706c0b53cc8",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Похожие планы}\r\nExpected: enabled\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383548433.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383548433.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1662383539296,
+        "stop" : 1662383549707,
+        "duration" : 10411
+      }
+    }, {
+      "uid" : "575c5c3ada406ce7",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Похожие планы}\r\nExpected: enabled\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383516186.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662383516186.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1662383506681,
+        "stop" : 1662383517236,
+        "duration" : 10555
+      }
+    }, {
+      "uid" : "76c75be1e5026888",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: 3D Модель}\r\nExpected: enabled\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382797955.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382797955.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1662382788203,
+        "stop" : 1662382798997,
+        "duration" : 10794
+      }
+    }, {
+      "uid" : "739e845dcefdcb0b",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: 3D Модель}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382637332.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382637332.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1662382627923,
+        "stop" : 1662382638406,
+        "duration" : 10483
+      }
+    }, {
+      "uid" : "8e6608d3096c8508",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: 3D Модель}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382616823.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382616823.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1662382607197,
+        "stop" : 1662382617827,
+        "duration" : 10630
+      }
+    }, {
+      "uid" : "a1a912841054672f",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: 3D Модель}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382404694.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382404694.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1662382395329,
+        "stop" : 1662382405810,
+        "duration" : 10481
+      }
+    }, {
+      "uid" : "1b0c4921021b792e",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: 3D Модель}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382361822.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382361822.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1662382352370,
+        "stop" : 1662382362900,
+        "duration" : 10530
+      }
+    }, {
+      "uid" : "31148bc91a71bb67",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.linkText: 3D Модель}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382330786.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382330786.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"3D Модель\"}",
+      "time" : {
+        "start" : 1662382321294,
+        "stop" : 1662382331882,
+        "duration" : 10588
+      }
+    }, {
+      "uid" : "2d9d8bffde165a27",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.linkText: 3D Модель}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382167922.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382167922.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"3D Модель\"}",
+      "time" : {
+        "start" : 1662382158242,
+        "stop" : 1662382168781,
+        "duration" : 10539
+      }
+    }, {
+      "uid" : "8125b501ee8c9621",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#preloader}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382058362.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662382058362.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#preloader\"}",
+      "time" : {
+        "start" : 1662382048539,
+        "stop" : 1662382059215,
+        "duration" : 10676
+      }
+    }, {
+      "uid" : "61dad54b7407d0cf",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.fas fa-cube}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381939306.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381939306.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".fas fa-cube\"}",
+      "time" : {
+        "start" : 1662381929915,
+        "stop" : 1662381940151,
+        "duration" : 10236
+      }
+    }, {
+      "uid" : "c6c33263ce347c81",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.btn btn-default btn-block cppi-btn}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381904430.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381904430.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn btn-default btn-block cppi-btn\"}",
+      "time" : {
+        "start" : 1662381895111,
+        "stop" : 1662381906107,
+        "duration" : 10996
+      }
+    }, {
+      "uid" : "dbf13c74d6da0e7e",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.cp-project-info-btns}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381838333.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381838333.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".cp-project-info-btns\"}",
+      "time" : {
+        "start" : 1662381828762,
+        "stop" : 1662381839974,
+        "duration" : 11212
+      }
+    }, {
+      "uid" : "4547f6b88c39af25",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.col-xs-12 col-sm-12 col-md-6}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381785049.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381785049.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".col-xs-12 col-sm-12 col-md-6\"}",
+      "time" : {
+        "start" : 1662381775331,
+        "stop" : 1662381786609,
+        "duration" : 11278
+      }
+    }, {
+      "uid" : "48d80d9f59a0693e",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.yaCounter20453434}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381667118.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381667118.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".yaCounter20453434\"}",
+      "time" : {
+        "start" : 1662381657632,
+        "stop" : 1662381668015,
+        "duration" : 10383
+      }
+    }, {
+      "uid" : "c8ac33cdf187864b",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.linkText: Купить проект}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381566495.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381566495.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Купить проект\"}",
+      "time" : {
+        "start" : 1662381556880,
+        "stop" : 1662381567330,
+        "duration" : 10450
+      }
+    }, {
+      "uid" : "cbb81a8e3d732bb3",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.1.4', revision: '535d840ee2'\nSystem info: host: 'DESKTOP-EMSLMPO', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0471954502b77eb509e29650d752b9f0, findElements {using=css selector, value=#82009}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\darya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56518/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0471954502b77eb509e29650d752b9f0",
+      "time" : {
+        "start" : 1662381438051,
+        "stop" : 1662381443391,
+        "duration" : 5340
+      }
+    }, {
+      "uid" : "3374f77c527c07c2",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.1.4', revision: '535d840ee2'\nSystem info: host: 'DESKTOP-EMSLMPO', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c2a1ed8599a672f6411197651e6fc00f, findElements {using=css selector, value=#82009}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\darya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53346}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53346/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c2a1ed8599a672f6411197651e6fc00f",
+      "time" : {
+        "start" : 1662381377484,
+        "stop" : 1662381383027,
+        "duration" : 5543
+      }
+    }, {
+      "uid" : "a491fb96cab0b67e",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.1.4', revision: '535d840ee2'\nSystem info: host: 'DESKTOP-EMSLMPO', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89278172204a870d3e747cf56c792f58, findElement {using=css selector, value=#82009}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\darya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65334/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 89278172204a870d3e747cf56c792f58",
+      "time" : {
+        "start" : 1662381341272,
+        "stop" : 1662381346509,
+        "duration" : 5237
+      }
+    }, {
+      "uid" : "765941633a6a22ed",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.col-xs-12 col-sm-12 col-md-6}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381285340.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381285340.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".col-xs-12 col-sm-12 col-md-6\"}",
+      "time" : {
+        "start" : 1662381275806,
+        "stop" : 1662381286220,
+        "duration" : 10414
+      }
+    }, {
+      "uid" : "9903cfc2e3c25a86",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.1.4', revision: '535d840ee2'\nSystem info: host: 'DESKTOP-EMSLMPO', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f020d5380a152619b7cc68798c6d617, findElement {using=css selector, value=.yaCounter20453434.reachGoal('ZAKAZATPROEKT'); return true;}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\darya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51162}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51162/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9f020d5380a152619b7cc68798c6d617",
+      "time" : {
+        "start" : 1662381233488,
+        "stop" : 1662381239030,
+        "duration" : 5542
+      }
+    }, {
+      "uid" : "397ee312ef367f8",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.btn btn-default btn-lg btn-block cp-btns cp-btns-green cp-btns-green-sm buy_project_page_project}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381166516.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381166516.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn btn-default btn-lg btn-block cp-btns cp-btns-green cp-btns-green-sm buy_project_page_project\"}",
+      "time" : {
+        "start" : 1662381157111,
+        "stop" : 1662381167324,
+        "duration" : 10213
+      }
+    }, {
+      "uid" : "a4e9fbda3a483819",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.btn btn-default btn-lg btn-block cp-btns cp-btns-green cp-btns-green-sm buy_project_page_project}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381144411.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381144411.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn btn-default btn-lg btn-block cp-btns cp-btns-green cp-btns-green-sm buy_project_page_project\"}",
+      "time" : {
+        "start" : 1662381134600,
+        "stop" : 1662381145298,
+        "duration" : 10698
+      }
+    }, {
+      "uid" : "c0bc065ad516bcdc",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.btn btn-default btn-lg btn-block cp-btns cp-btns-green cp-btns-green-sm buy_project_page_project}\r\nExpected: interactable\r\nScreenshot: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381120753.0.png\r\nPage source: file:/D:/IDEA/AUTO-102СatalogPlans/build/reports/tests/1662381120753.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn btn-default btn-lg btn-block cp-btns cp-btns-green cp-btns-green-sm buy_project_page_project\"}",
+      "time" : {
+        "start" : 1662381109926,
+        "stop" : 1662381121710,
+        "duration" : 11784
+      }
+    }, {
+      "uid" : "c5eaf4bd3b2a5914",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662380802931,
+        "stop" : 1662380808413,
+        "duration" : 5482
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c99cae780a910336.json",
+  "parameterValues" : [ ]
+}

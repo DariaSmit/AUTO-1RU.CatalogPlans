@@ -1,0 +1,81 @@
+[ {
+  "uid" : "9de3866b28221db0",
+  "name" : "Проверка заголовков в шапке сайта",
+  "time" : {
+    "start" : 1662379793199,
+    "stop" : 1662379800369,
+    "duration" : 7170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0ebd0db856e8cbd",
+  "name" : "Проверка вконтакте ссылки",
+  "time" : {
+    "start" : 1662380031876,
+    "stop" : 1662380038809,
+    "duration" : 6933
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbca9563de7290b3",
+  "name" : "Проверка заголовков в шапке сайта",
+  "time" : {
+    "start" : 1662378424892,
+    "stop" : 1662378440994,
+    "duration" : 16102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48d2fb1516e6abce",
+  "name" : "Проверка вконтакте ссылки",
+  "time" : {
+    "start" : 1662380219612,
+    "stop" : 1662380226085,
+    "duration" : 6473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77bfb0d714e2703e",
+  "name" : "Проверка поиска",
+  "time" : {
+    "start" : 1662386532652,
+    "stop" : 1662386557190,
+    "duration" : 24538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f73cb484b6f78738",
+  "name" : "Page title should have header text",
+  "time" : {
+    "start" : 1662378758796,
+    "stop" : 1662378773164,
+    "duration" : 14368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a76f3ee5bdc2a035",
+  "name" : "Проверка заголовков в шапке сайта",
+  "time" : {
+    "start" : 1662378803759,
+    "stop" : 1662378809053,
+    "duration" : 5294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c99cae780a910336",
+  "name" : "Проверка поиска",
+  "time" : {
+    "start" : 1662386386780,
+    "stop" : 1662386394006,
+    "duration" : 7226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

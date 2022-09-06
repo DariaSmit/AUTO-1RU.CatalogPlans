@@ -1,0 +1,263 @@
+{
+  "uid" : "bf124a507b0336aa",
+  "name" : "Проверка вконтакте ссылки",
+  "fullName" : "cloud.autotests.tests.MainPage.LinkYandexTest",
+  "historyId" : "9901b471456821e24b075cc9acc6f7",
+  "time" : {
+    "start" : 1662380206156,
+    "stop" : 1662380212948,
+    "duration" : 6792
+  },
+  "description" : "Проверка сайта catalog-plans.ru)",
+  "descriptionHtml" : "<p>Проверка сайта catalog-plans.ru)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1662380206002,
+      "stop" : 1662380206107,
+      "duration" : 105
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeEach",
+    "time" : {
+      "start" : 1662380206160,
+      "stop" : 1662380206160,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка сайта catalog-plans.ru)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть https://catalog-plans.ru/",
+      "time" : {
+        "start" : 1662380206165,
+        "stop" : 1662380210321,
+        "duration" : 4156
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://catalog-plans.ru",
+        "time" : {
+          "start" : 1662380206231,
+          "stop" : 1662380210320,
+          "duration" : 4089
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1662380206238,
+            "stop" : 1662380208916,
+            "duration" : 2678
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "нажать на кнопку Telegram",
+      "time" : {
+        "start" : 1662380210321,
+        "stop" : 1662380211932,
+        "duration" : 1611
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.linkText: Яндекс Дзен\") click()",
+        "time" : {
+          "start" : 1662380210366,
+          "stop" : 1662380211885,
+          "duration" : 1519
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Проверить заголовок",
+        "time" : {
+          "start" : 1662380211885,
+          "stop" : 1662380211932,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".desktop-channel-layout__header\") should have(text \"Проекты Коттеджей\")",
+          "time" : {
+            "start" : 1662380211888,
+            "stop" : 1662380211932,
+            "duration" : 44
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1662380211934,
+      "stop" : 1662380212942,
+      "duration" : 1008
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1662380212941,
+        "stop" : 1662380212942,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5053ffa2a3f7ea18",
+      "name" : "Last screenshot",
+      "source" : "5053ffa2a3f7ea18.png",
+      "type" : "image/png",
+      "size" : 1450699
+    }, {
+      "uid" : "397e35194a8f2b5d",
+      "name" : "Page source",
+      "source" : "397e35194a8f2b5d.html",
+      "type" : "text/plain",
+      "size" : 1657919
+    }, {
+      "uid" : "508db0d204cd4ae4",
+      "name" : "Browser console logs",
+      "source" : "508db0d204cd4ae4.bin",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "6d2a3d96466a82d2",
+      "name" : "Video",
+      "source" : "6d2a3d96466a82d2.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.MainPage]/[method:LinkYandexTest()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMSLMPO"
+  }, {
+    "name" : "thread",
+    "value" : "15684@DESKTOP-EMSLMPO.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.MainPage"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.MainPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "LinkYandexTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.MainPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf124a507b0336aa.json",
+  "parameterValues" : [ ]
+}

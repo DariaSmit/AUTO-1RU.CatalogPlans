@@ -1,0 +1,157 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "cloud.autotests.tests.GeneratedTests",
+    "children" : [ {
+      "name" : "Проверка заголовков в шапке сайта",
+      "uid" : "fbca9563de7290b3",
+      "parentUid" : "501a1ec69c4cfe3daa26cdc0dc557ad7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662378424892,
+        "stop" : 1662378440994,
+        "duration" : 16102
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "501a1ec69c4cfe3daa26cdc0dc557ad7"
+  }, {
+    "name" : "cloud.autotests.tests.MainPage",
+    "children" : [ {
+      "name" : "Page title should have header text",
+      "uid" : "f73cb484b6f78738",
+      "parentUid" : "602e8be6ca59f78b0bfa0e5e3998f4bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662378758796,
+        "stop" : 1662378773164,
+        "duration" : 14368
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка заголовков в шапке сайта",
+      "uid" : "a76f3ee5bdc2a035",
+      "parentUid" : "602e8be6ca59f78b0bfa0e5e3998f4bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662378803759,
+        "stop" : 1662378809053,
+        "duration" : 5294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка заголовков в шапке сайта",
+      "uid" : "9de3866b28221db0",
+      "parentUid" : "602e8be6ca59f78b0bfa0e5e3998f4bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662379793199,
+        "stop" : 1662379800369,
+        "duration" : 7170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка вконтакте ссылки",
+      "uid" : "f0ebd0db856e8cbd",
+      "parentUid" : "602e8be6ca59f78b0bfa0e5e3998f4bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662380031876,
+        "stop" : 1662380038809,
+        "duration" : 6933
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка вконтакте ссылки",
+      "uid" : "48d2fb1516e6abce",
+      "parentUid" : "602e8be6ca59f78b0bfa0e5e3998f4bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662380219612,
+        "stop" : 1662380226085,
+        "duration" : 6473
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "602e8be6ca59f78b0bfa0e5e3998f4bd"
+  }, {
+    "name" : "cloud.autotests.tests.HouseTest",
+    "children" : [ {
+      "name" : "Проверка поиска",
+      "uid" : "c99cae780a910336",
+      "parentUid" : "7035a61fe47e57f88fba236d4d98b3d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662386386780,
+        "stop" : 1662386394006,
+        "duration" : 7226
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 61,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7035a61fe47e57f88fba236d4d98b3d7"
+  }, {
+    "name" : "cloud.autotests.tests.SearchTest",
+    "children" : [ {
+      "name" : "Проверка поиска",
+      "uid" : "77bfb0d714e2703e",
+      "parentUid" : "eadecc12aab391e80ac79406fa027cec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662386532652,
+        "stop" : 1662386557190,
+        "duration" : 24538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "eadecc12aab391e80ac79406fa027cec"
+  } ]
+}

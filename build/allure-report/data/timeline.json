@@ -1,0 +1,1786 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-EMSLMPO",
+    "children" : [ {
+      "name" : "1584@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка вконтакте ссылки",
+        "uid" : "f0ebd0db856e8cbd",
+        "parentUid" : "d22b1febea289dc19e3958e4fb49ded6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662380031876,
+          "stop" : 1662380038809,
+          "duration" : 6933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d22b1febea289dc19e3958e4fb49ded6"
+    }, {
+      "name" : "17716@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "d92b706c0b53cc8",
+        "parentUid" : "2f95c6032266e07924f02be5db78d7da",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662383539296,
+          "stop" : 1662383549707,
+          "duration" : 10411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f95c6032266e07924f02be5db78d7da"
+    }, {
+      "name" : "20644@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "82307169035b3253",
+        "parentUid" : "11c0f45e5f77a6768cabae090ee1fe59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662386489569,
+          "stop" : 1662386497350,
+          "duration" : 7781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11c0f45e5f77a6768cabae090ee1fe59"
+    }, {
+      "name" : "10508@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "9de3866b28221db0",
+        "parentUid" : "f3865c78c66fac800790dd621b2372c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662379793199,
+          "stop" : 1662379800369,
+          "duration" : 7170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f3865c78c66fac800790dd621b2372c6"
+    }, {
+      "name" : "13980@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка сайта коттеджи",
+        "uid" : "790493800758a3b2",
+        "parentUid" : "896f08d6556850e976f4e8dd14b86601",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662375815009,
+          "stop" : 1662375828388,
+          "duration" : 13379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "896f08d6556850e976f4e8dd14b86601"
+    }, {
+      "name" : "18316@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "c0bc065ad516bcdc",
+        "parentUid" : "8dac600b555a948aff7bff780dd40fcb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662381109926,
+          "stop" : 1662381121710,
+          "duration" : 11784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8dac600b555a948aff7bff780dd40fcb"
+    }, {
+      "name" : "18132@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "f2fa25ba871f4f82",
+        "parentUid" : "c4d2471cbf44c27fe46b328f243b5726",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662384619120,
+          "stop" : 1662384627567,
+          "duration" : 8447
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4d2471cbf44c27fe46b328f243b5726"
+    }, {
+      "name" : "18168@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "be8b53f84a15c88a",
+        "parentUid" : "1641923f8d4eac688600f0246343de27",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662383978689,
+          "stop" : 1662383989083,
+          "duration" : 10394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1641923f8d4eac688600f0246343de27"
+    }, {
+      "name" : "15684@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка вконтакте ссылки",
+        "uid" : "bf124a507b0336aa",
+        "parentUid" : "e65a1a4aa8c052a8db1a8fd837837cdd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662380206156,
+          "stop" : 1662380212948,
+          "duration" : 6792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e65a1a4aa8c052a8db1a8fd837837cdd"
+    }, {
+      "name" : "7688@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "8f6e614d09ce168b",
+        "parentUid" : "59af6a76ca4dfe6b0e6adad4f83c67ab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662378363595,
+          "stop" : 1662378376781,
+          "duration" : 13186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "59af6a76ca4dfe6b0e6adad4f83c67ab"
+    }, {
+      "name" : "12796@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "aff95f01df433c3",
+        "parentUid" : "11888bed3c06c9138916f4746e080ae8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662384353477,
+          "stop" : 1662384364212,
+          "duration" : 10735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11888bed3c06c9138916f4746e080ae8"
+    }, {
+      "name" : "1700@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "6d95832849fee63c",
+        "parentUid" : "6bb2c03081201916cb70e4ee77968615",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662378136704,
+          "stop" : 1662378150408,
+          "duration" : 13704
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bb2c03081201916cb70e4ee77968615"
+    }, {
+      "name" : "3120@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка сайта коттеджи",
+        "uid" : "852bc49d36a5008f",
+        "parentUid" : "c85b49200d4869fdab92d5149c92c6b4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662375762553,
+          "stop" : 1662375762622,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c85b49200d4869fdab92d5149c92c6b4"
+    }, {
+      "name" : "14764@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "51e92e3e7203d775",
+        "parentUid" : "8ed0cde8145fc98e63d698e41fb3e633",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662385201668,
+          "stop" : 1662385209744,
+          "duration" : 8076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ed0cde8145fc98e63d698e41fb3e633"
+    }, {
+      "name" : "8036@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "4247190e07301b3b",
+        "parentUid" : "2a30a56daa404b11e0519d0fdd9fd24c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662385248194,
+          "stop" : 1662385255208,
+          "duration" : 7014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2a30a56daa404b11e0519d0fdd9fd24c"
+    }, {
+      "name" : "908@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "a76f3ee5bdc2a035",
+        "parentUid" : "406c7fc7ae0c9f164c5a438bcd18facc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662378803759,
+          "stop" : 1662378809053,
+          "duration" : 5294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "406c7fc7ae0c9f164c5a438bcd18facc"
+    }, {
+      "name" : "16372@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "cf013e20fba36681",
+        "parentUid" : "38d7e26c9d5d21b15d8b01959770877a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662378819106,
+          "stop" : 1662378829334,
+          "duration" : 10228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38d7e26c9d5d21b15d8b01959770877a"
+    }, {
+      "name" : "20004@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "cab8aa933f8c3659",
+        "parentUid" : "fde87de4e8f73ea086e9eedaf9a128c2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662386315593,
+          "stop" : 1662386327101,
+          "duration" : 11508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fde87de4e8f73ea086e9eedaf9a128c2"
+    }, {
+      "name" : "3228@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "61dad54b7407d0cf",
+        "parentUid" : "fc7de66aa49aa33263057387259b0e18",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662381929915,
+          "stop" : 1662381940151,
+          "duration" : 10236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc7de66aa49aa33263057387259b0e18"
+    }, {
+      "name" : "14488@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "e63e23cc2818a0c8",
+        "parentUid" : "cb5664c5f3019f2292ac07122a1ada77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662378916364,
+          "stop" : 1662378923336,
+          "duration" : 6972
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb5664c5f3019f2292ac07122a1ada77"
+    }, {
+      "name" : "15852@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "48d80d9f59a0693e",
+        "parentUid" : "eaf723268796473fd68077c925d294fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662381657632,
+          "stop" : 1662381668015,
+          "duration" : 10383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eaf723268796473fd68077c925d294fe"
+    }, {
+      "name" : "18988@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "de4c24376929e6a5",
+        "parentUid" : "e50af6a12dd2ee78cf2d886be94ef784",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662385319519,
+          "stop" : 1662385326456,
+          "duration" : 6937
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e50af6a12dd2ee78cf2d886be94ef784"
+    }, {
+      "name" : "14624@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "a491fb96cab0b67e",
+        "parentUid" : "7f51d6b75fa3620fcb0519294be7753b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662381341272,
+          "stop" : 1662381346509,
+          "duration" : 5237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f51d6b75fa3620fcb0519294be7753b"
+    }, {
+      "name" : "12208@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "3ddcd699aa16513e",
+        "parentUid" : "4dc4aaf9dd6cffe69f3a247841eee7c0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662384068771,
+          "stop" : 1662384078599,
+          "duration" : 9828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4dc4aaf9dd6cffe69f3a247841eee7c0"
+    }, {
+      "name" : "4224@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "8e6608d3096c8508",
+        "parentUid" : "63e640219abc25ab6ac612379481fe57",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662382607197,
+          "stop" : 1662382617827,
+          "duration" : 10630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "63e640219abc25ab6ac612379481fe57"
+    }, {
+      "name" : "5928@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "6fc7ecfd7e8245b4",
+        "parentUid" : "9c74fe5d040ada2b37a4752e2e29af77",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662386011815,
+          "stop" : 1662386024162,
+          "duration" : 12347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c74fe5d040ada2b37a4752e2e29af77"
+    }, {
+      "name" : "20780@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "e0e1c490fa68e7e",
+        "parentUid" : "46f2880f92a2d9056eba61c89caad56b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662386065433,
+          "stop" : 1662386077871,
+          "duration" : 12438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46f2880f92a2d9056eba61c89caad56b"
+    }, {
+      "name" : "5472@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка вконтакте ссылки",
+        "uid" : "a46f6511b8678d70",
+        "parentUid" : "bbbdfd89b71882b95ef5c4967de7d641",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662380171625,
+          "stop" : 1662380182558,
+          "duration" : 10933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bbbdfd89b71882b95ef5c4967de7d641"
+    }, {
+      "name" : "1948@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Page title should have header text",
+        "uid" : "f73cb484b6f78738",
+        "parentUid" : "83a5fdf42d45fc46270847ea925265ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662378758796,
+          "stop" : 1662378773164,
+          "duration" : 14368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "83a5fdf42d45fc46270847ea925265ed"
+    }, {
+      "name" : "18332@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "743d45148fceb8df",
+        "parentUid" : "cea8ba27cda19a0342093d881abc0ec5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662385059581,
+          "stop" : 1662385070384,
+          "duration" : 10803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cea8ba27cda19a0342093d881abc0ec5"
+    }, {
+      "name" : "20748@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "dffcf51a40d6742f",
+        "parentUid" : "1c62f444eef8fff015c2911ffde01390",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662386211518,
+          "stop" : 1662386224300,
+          "duration" : 12782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c62f444eef8fff015c2911ffde01390"
+    }, {
+      "name" : "14184@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "3374f77c527c07c2",
+        "parentUid" : "fd742db97161abeca8c6cdc31ebdebf0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662381377484,
+          "stop" : 1662381383027,
+          "duration" : 5543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd742db97161abeca8c6cdc31ebdebf0"
+    }, {
+      "name" : "18616@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "4bd2c9a2b43c4a45",
+        "parentUid" : "e6d943dd76cd535aafd5753725c638e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662386351868,
+          "stop" : 1662386363597,
+          "duration" : 11729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e6d943dd76cd535aafd5753725c638e0"
+    }, {
+      "name" : "15884@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "77bfb0d714e2703e",
+        "parentUid" : "779e268321a7a68c2f2f8d58e95e7776",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662386532652,
+          "stop" : 1662386557190,
+          "duration" : 24538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "779e268321a7a68c2f2f8d58e95e7776"
+    }, {
+      "name" : "13712@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "c5eaf4bd3b2a5914",
+        "parentUid" : "79fd3700e836eb0f479550e87993f520",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662380802931,
+          "stop" : 1662380808413,
+          "duration" : 5482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79fd3700e836eb0f479550e87993f520"
+    }, {
+      "name" : "2172@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "2d9d8bffde165a27",
+        "parentUid" : "d06e3e0bdb49b73d7c265b5a4d524af2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662382158242,
+          "stop" : 1662382168781,
+          "duration" : 10539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d06e3e0bdb49b73d7c265b5a4d524af2"
+    }, {
+      "name" : "21088@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "1915795359c2c2c8",
+        "parentUid" : "f7cc8d563802bb79e9c2fb1b3db96896",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662386280462,
+          "stop" : 1662386293092,
+          "duration" : 12630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f7cc8d563802bb79e9c2fb1b3db96896"
+    }, {
+      "name" : "17952@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "7515e4b02ab5a9d9",
+        "parentUid" : "0cd47ec88140fee94003b57eebdd3038",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662384889838,
+          "stop" : 1662384895018,
+          "duration" : 5180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0cd47ec88140fee94003b57eebdd3038"
+    }, {
+      "name" : "14944@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "380745dc90f3167",
+        "parentUid" : "126e61e46b4bda8649238ecad3ec0f7c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662385292836,
+          "stop" : 1662385307048,
+          "duration" : 14212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "126e61e46b4bda8649238ecad3ec0f7c"
+    }, {
+      "name" : "16764@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "dbf13c74d6da0e7e",
+        "parentUid" : "9bbe288cda167b0e33abf05fd9e8aa0d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662381828762,
+          "stop" : 1662381839974,
+          "duration" : 11212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9bbe288cda167b0e33abf05fd9e8aa0d"
+    }, {
+      "name" : "16044@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "8ab2e8f64870fd82",
+        "parentUid" : "0049ce09730414499162cc565d7f410d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662379649187,
+          "stop" : 1662379655010,
+          "duration" : 5823
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0049ce09730414499162cc565d7f410d"
+    }, {
+      "name" : "18396@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "67aa92fb6d62bd30",
+        "parentUid" : "d8de45a403a03ec3cf2f00e73603c192",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662384711763,
+          "stop" : 1662384721680,
+          "duration" : 9917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8de45a403a03ec3cf2f00e73603c192"
+    }, {
+      "name" : "17384@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "57a0e110dc5c9cc2",
+        "parentUid" : "5492d3dba4b59e259316478fffa11214",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662384602183,
+          "stop" : 1662384610913,
+          "duration" : 8730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5492d3dba4b59e259316478fffa11214"
+    }, {
+      "name" : "15516@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "c6c33263ce347c81",
+        "parentUid" : "ea0c77a7b31fef6af52da9ed0f3df7fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662381895111,
+          "stop" : 1662381906107,
+          "duration" : 10996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea0c77a7b31fef6af52da9ed0f3df7fd"
+    }, {
+      "name" : "16788@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "1b0c4921021b792e",
+        "parentUid" : "8d00284d42b5f80a41b50d7654d09ee9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662382352370,
+          "stop" : 1662382362900,
+          "duration" : 10530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d00284d42b5f80a41b50d7654d09ee9"
+    }, {
+      "name" : "17236@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "765941633a6a22ed",
+        "parentUid" : "6749c3e99084899b72b601ab74beb52d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662381275806,
+          "stop" : 1662381286220,
+          "duration" : 10414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6749c3e99084899b72b601ab74beb52d"
+    }, {
+      "name" : "12400@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "43e4253f9daf86c8",
+        "parentUid" : "8b49af327d30ddeef08230bc4dbf4351",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662379532429,
+          "stop" : 1662379543173,
+          "duration" : 10744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b49af327d30ddeef08230bc4dbf4351"
+    }, {
+      "name" : "10204@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "4547f6b88c39af25",
+        "parentUid" : "e0ef1e989f3d329d88461f78f58ec953",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662381775331,
+          "stop" : 1662381786609,
+          "duration" : 11278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0ef1e989f3d329d88461f78f58ec953"
+    }, {
+      "name" : "16532@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "1ae35cb3aa0233d2",
+        "parentUid" : "da316688109173dd1535c6cc7d50794b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662384989387,
+          "stop" : 1662384994929,
+          "duration" : 5542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da316688109173dd1535c6cc7d50794b"
+    }, {
+      "name" : "1432@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "993ede5a91cf9a75",
+        "parentUid" : "08766599de2ecd00bf9f41bb24f79471",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662379699147,
+          "stop" : 1662379705266,
+          "duration" : 6119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08766599de2ecd00bf9f41bb24f79471"
+    }, {
+      "name" : "12660@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "76c75be1e5026888",
+        "parentUid" : "aa164d759845320be5e4cb1204ccb3b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662382788203,
+          "stop" : 1662382798997,
+          "duration" : 10794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa164d759845320be5e4cb1204ccb3b4"
+    }, {
+      "name" : "14504@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "a4e9fbda3a483819",
+        "parentUid" : "8ff31ed979c97ecfd61bdb589859ecfe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662381134600,
+          "stop" : 1662381145298,
+          "duration" : 10698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ff31ed979c97ecfd61bdb589859ecfe"
+    }, {
+      "name" : "10924@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "cea435fa5779e400",
+        "parentUid" : "373c7913268c48f6bb4d4a409faa0693",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662383586381,
+          "stop" : 1662383596979,
+          "duration" : 10598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка страницы проекта",
+        "uid" : "397ee312ef367f8",
+        "parentUid" : "373c7913268c48f6bb4d4a409faa0693",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662381157111,
+          "stop" : 1662381167324,
+          "duration" : 10213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "373c7913268c48f6bb4d4a409faa0693"
+    }, {
+      "name" : "18004@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "8ece96122422c14",
+        "parentUid" : "c4aa6cc9b5c91bcb3378ba816cd2f525",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662385030005,
+          "stop" : 1662385035444,
+          "duration" : 5439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4aa6cc9b5c91bcb3378ba816cd2f525"
+    }, {
+      "name" : "8524@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "fbca9563de7290b3",
+        "parentUid" : "8889ec665090cea76f529ae77a99ca54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662378424892,
+          "stop" : 1662378440994,
+          "duration" : 16102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8889ec665090cea76f529ae77a99ca54"
+    }, {
+      "name" : "17736@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка вконтакте ссылки",
+        "uid" : "48d2fb1516e6abce",
+        "parentUid" : "6431284e89ada180ae365148e9922ad2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662380219612,
+          "stop" : 1662380226085,
+          "duration" : 6473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6431284e89ada180ae365148e9922ad2"
+    }, {
+      "name" : "17504@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "c1bdd7a53593f9e1",
+        "parentUid" : "0d12f6a161e8a73f7f2f9b7593015786",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662384671994,
+          "stop" : 1662384680477,
+          "duration" : 8483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d12f6a161e8a73f7f2f9b7593015786"
+    }, {
+      "name" : "17508@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "ee331854463342a6",
+        "parentUid" : "b9cea4371163781f2aa36a3291accb46",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662383835713,
+          "stop" : 1662383846400,
+          "duration" : 10687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка поиска",
+        "uid" : "dd92cf443fc21bb2",
+        "parentUid" : "b9cea4371163781f2aa36a3291accb46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662385085030,
+          "stop" : 1662385092344,
+          "duration" : 7314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b9cea4371163781f2aa36a3291accb46"
+    }, {
+      "name" : "19424@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "615f3edaf299861b",
+        "parentUid" : "e4d9ef58c0583111138c3d02f4d2512b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662385430653,
+          "stop" : 1662385443851,
+          "duration" : 13198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4d9ef58c0583111138c3d02f4d2512b"
+    }, {
+      "name" : "13596@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка вконтакте ссылки",
+        "uid" : "3e47aeb14b43de32",
+        "parentUid" : "1b3aa437502acc3c3d31494dc03918aa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662380151151,
+          "stop" : 1662380161883,
+          "duration" : 10732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b3aa437502acc3c3d31494dc03918aa"
+    }, {
+      "name" : "13608@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "c81ba70eaa2be375",
+        "parentUid" : "90fec1bf63c2d350aac412fa5e5b2899",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662385632020,
+          "stop" : 1662385645749,
+          "duration" : 13729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90fec1bf63c2d350aac412fa5e5b2899"
+    }, {
+      "name" : "2340@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "739e845dcefdcb0b",
+        "parentUid" : "b8fb6c35d208a989c2a9135069b7ba3f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662382627923,
+          "stop" : 1662382638406,
+          "duration" : 10483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b8fb6c35d208a989c2a9135069b7ba3f"
+    }, {
+      "name" : "17580@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "cbb81a8e3d732bb3",
+        "parentUid" : "2d5cb3c0797bb36b122e20fe3a7872d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662381438051,
+          "stop" : 1662381443391,
+          "duration" : 5340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d5cb3c0797bb36b122e20fe3a7872d3"
+    }, {
+      "name" : "1796@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "89fc710046bae614",
+        "parentUid" : "86a13e1e11654cbe6c49ba1b5c96bf74",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662383760178,
+          "stop" : 1662383770964,
+          "duration" : 10786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86a13e1e11654cbe6c49ba1b5c96bf74"
+    }, {
+      "name" : "18160@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "8125b501ee8c9621",
+        "parentUid" : "ddb98a1ac6cbf9e824c7fcc8dd6214d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662382048539,
+          "stop" : 1662382059215,
+          "duration" : 10676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ddb98a1ac6cbf9e824c7fcc8dd6214d0"
+    }, {
+      "name" : "15236@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "ebc665ed2cdbe560",
+        "parentUid" : "41f55afb74efa5ba6b7f6888c2350e41",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662385651516,
+          "stop" : 1662385665296,
+          "duration" : 13780
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41f55afb74efa5ba6b7f6888c2350e41"
+    }, {
+      "name" : "16584@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "5cd902f06b61e540",
+        "parentUid" : "2800d55b944e230959e2f6750526557d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662386169966,
+          "stop" : 1662386182010,
+          "duration" : 12044
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2800d55b944e230959e2f6750526557d"
+    }, {
+      "name" : "20220@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "3f8e6fd8f1d08706",
+        "parentUid" : "79fa731e97eaf0a9dfb2c970d764e7cc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662385841005,
+          "stop" : 1662385874234,
+          "duration" : 33229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79fa731e97eaf0a9dfb2c970d764e7cc"
+    }, {
+      "name" : "20032@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "ed7687519ca63733",
+        "parentUid" : "24d85366b3298ccb8fec3379c9f477b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662385584943,
+          "stop" : 1662385596697,
+          "duration" : 11754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24d85366b3298ccb8fec3379c9f477b4"
+    }, {
+      "name" : "17156@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "646b3e50d5f8fe9c",
+        "parentUid" : "811a6c61eacba944dcbc5b0f3e1800f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662379352191,
+          "stop" : 1662379362434,
+          "duration" : 10243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "811a6c61eacba944dcbc5b0f3e1800f6"
+    }, {
+      "name" : "16536@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "b4b5eb5d09fddc56",
+        "parentUid" : "df941616ebf3ca88976f587a4a7a0bdc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662383677072,
+          "stop" : 1662383687748,
+          "duration" : 10676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df941616ebf3ca88976f587a4a7a0bdc"
+    }, {
+      "name" : "4772@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "20152cf2b7dc162",
+        "parentUid" : "5e7da8a347f65c38c7d02283a11b3693",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662377372743,
+          "stop" : 1662377386696,
+          "duration" : 13953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e7da8a347f65c38c7d02283a11b3693"
+    }, {
+      "name" : "16616@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "575c5c3ada406ce7",
+        "parentUid" : "aab01486f6a3fe6aa03c4f93793b5966",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662383506681,
+          "stop" : 1662383517236,
+          "duration" : 10555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aab01486f6a3fe6aa03c4f93793b5966"
+    }, {
+      "name" : "11212@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "a1a912841054672f",
+        "parentUid" : "1cb795b9720647df110fdd24ec834e36",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662382395329,
+          "stop" : 1662382405810,
+          "duration" : 10481
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1cb795b9720647df110fdd24ec834e36"
+    }, {
+      "name" : "5568@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков в шапке сайта",
+        "uid" : "2ae65a346ba875f3",
+        "parentUid" : "1345a4d8f63087f2820ffefb322bda74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662378191651,
+          "stop" : 1662378205025,
+          "duration" : 13374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1345a4d8f63087f2820ffefb322bda74"
+    }, {
+      "name" : "11412@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "b40215944cdf039b",
+        "parentUid" : "215c9cdb811ec8d63cca9a0e5a2e2077",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662383927321,
+          "stop" : 1662383937841,
+          "duration" : 10520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "215c9cdb811ec8d63cca9a0e5a2e2077"
+    }, {
+      "name" : "17804@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "31148bc91a71bb67",
+        "parentUid" : "a4d8b10f215371bc0dc0f711481e88f4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662382321294,
+          "stop" : 1662382331882,
+          "duration" : 10588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4d8b10f215371bc0dc0f711481e88f4"
+    }, {
+      "name" : "16352@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "b9c9cf9357a64b85",
+        "parentUid" : "3db9fdcd9db2f969a43f54e3d57df294",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662385916654,
+          "stop" : 1662385929188,
+          "duration" : 12534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3db9fdcd9db2f969a43f54e3d57df294"
+    }, {
+      "name" : "17212@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "c8ac33cdf187864b",
+        "parentUid" : "47be6ca6f49328c82295f60b100cc02f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662381556880,
+          "stop" : 1662381567330,
+          "duration" : 10450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "47be6ca6f49328c82295f60b100cc02f"
+    }, {
+      "name" : "18576@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "c99cae780a910336",
+        "parentUid" : "eea4975098d42d267090db866ec194bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662386386780,
+          "stop" : 1662386394006,
+          "duration" : 7226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 61,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eea4975098d42d267090db866ec194bc"
+    }, {
+      "name" : "3268@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "464b2b3670fc0474",
+        "parentUid" : "2970c3249ea0c716541f2db62de16b16",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662385408763,
+          "stop" : 1662385422067,
+          "duration" : 13304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2970c3249ea0c716541f2db62de16b16"
+    }, {
+      "name" : "5732@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка страницы проекта",
+        "uid" : "9903cfc2e3c25a86",
+        "parentUid" : "a47be094164dbdf242660df3d9c4c58e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662381233488,
+          "stop" : 1662381239030,
+          "duration" : 5542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a47be094164dbdf242660df3d9c4c58e"
+    }, {
+      "name" : "20080@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка поиска",
+        "uid" : "5c1bea5b74771fe5",
+        "parentUid" : "2e1013c088c89961215b9de2878a9738",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662385888006,
+          "stop" : 1662385903343,
+          "duration" : 15337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e1013c088c89961215b9de2878a9738"
+    } ],
+    "uid" : "5386f6b11084c0612c9219419a75dd41"
+  } ]
+}

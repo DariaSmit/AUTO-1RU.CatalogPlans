@@ -1,0 +1,1 @@
+[2022-09-05T11:49:27.289Z] [SEVERE] https://mc.yandex.com/sync_cookie_image_decide?token=9752.qGXVV37MA-ldNAWNl98sA9NAouPDFMkOpOXkgZ4yC8DKZmxj0zBepjYUeMC3aavvyss2CSCDHEA_HbrdqcOBYg%2C%2C.uxBJmywlTVgXsHAWnP4hhfpNjhY%2C - Failed to load resource: the server responded with a status of 400 ()

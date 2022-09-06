@@ -1,0 +1,423 @@
+{
+  "uid" : "77bfb0d714e2703e",
+  "name" : "Проверка поиска",
+  "fullName" : "cloud.autotests.tests.SearchTest.HouseTest",
+  "historyId" : "b50016e430f6025109996867d8198005",
+  "time" : {
+    "start" : 1662386532652,
+    "stop" : 1662386557190,
+    "duration" : 24538
+  },
+  "description" : "Проверка сайта catalog-plans.ru)",
+  "descriptionHtml" : "<p>Проверка сайта catalog-plans.ru)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1662386532517,
+      "stop" : 1662386532609,
+      "duration" : 92
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeEach",
+    "time" : {
+      "start" : 1662386532655,
+      "stop" : 1662386532655,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка сайта catalog-plans.ru)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть https://catalog-plans.ru/",
+      "time" : {
+        "start" : 1662386532659,
+        "stop" : 1662386544617,
+        "duration" : 11958
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://catalog-plans.ru",
+        "time" : {
+          "start" : 1662386532714,
+          "stop" : 1662386544617,
+          "duration" : 11903
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1662386532719,
+            "stop" : 1662386540970,
+            "duration" : 8251
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть ПРОЕКТЫ ОДНОЭТАЖНЫХ ДОМОВ'",
+      "time" : {
+        "start" : 1662386544618,
+        "stop" : 1662386548304,
+        "duration" : 3686
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".metro-container\") click()",
+        "time" : {
+          "start" : 1662386544656,
+          "stop" : 1662386548304,
+          "duration" : 3648
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Выбрать параметры поиска",
+      "time" : {
+        "start" : 1662386548304,
+        "stop" : 1662386554924,
+        "duration" : 6620
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.name: areaOt\") click()",
+        "time" : {
+          "start" : 1662386548308,
+          "stop" : 1662386549622,
+          "duration" : 1314
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.name: areaOt\") val(670)",
+        "time" : {
+          "start" : 1662386549622,
+          "stop" : 1662386551139,
+          "duration" : 1517
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.name: gaboth\") click()",
+        "time" : {
+          "start" : 1662386551140,
+          "stop" : 1662386552194,
+          "duration" : 1054
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.name: gaboth\") val(010)",
+        "time" : {
+          "start" : 1662386552276,
+          "stop" : 1662386552913,
+          "duration" : 637
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.name: gabotw\") click()",
+        "time" : {
+          "start" : 1662386552913,
+          "stop" : 1662386553228,
+          "duration" : 315
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.name: gabotw\") val(10)",
+        "time" : {
+          "start" : 1662386553309,
+          "stop" : 1662386553940,
+          "duration" : 631
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#collapse31 label:nth-child(2) > .checkmark\") click()",
+        "time" : {
+          "start" : 1662386553941,
+          "stop" : 1662386554272,
+          "duration" : 331
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#collapse7 .col-xs-6:nth-child(2) > label:nth-child(1)\") click()",
+        "time" : {
+          "start" : 1662386554272,
+          "stop" : 1662386554586,
+          "duration" : 314
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#collapse7 .col-xs-6:nth-child(3) > label:nth-child(2) > .checkmark\") click()",
+        "time" : {
+          "start" : 1662386554586,
+          "stop" : 1662386554924,
+          "duration" : 338
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 9,
+      "hasContent" : true
+    }, {
+      "name" : "проверить цену проекта по заданным поиском параметрам",
+      "time" : {
+        "start" : 1662386554924,
+        "stop" : 1662386555099,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".cpcii-price\") should have(text \"39000\")",
+        "time" : {
+          "start" : 1662386554928,
+          "stop" : 1662386555099,
+          "duration" : 171
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 17,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1662386555100,
+      "stop" : 1662386557183,
+      "duration" : 2083
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1662386557183,
+        "stop" : 1662386557183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1b5124714175f318",
+      "name" : "Last screenshot",
+      "source" : "1b5124714175f318.png",
+      "type" : "image/png",
+      "size" : 260043
+    }, {
+      "uid" : "c8a073caffa26fb4",
+      "name" : "Page source",
+      "source" : "c8a073caffa26fb4.xhtml",
+      "type" : "text/plain",
+      "size" : 289284
+    }, {
+      "uid" : "b7ed3fade57f9f6a",
+      "name" : "Browser console logs",
+      "source" : "b7ed3fade57f9f6a.txt",
+      "type" : "text/plain",
+      "size" : 2709
+    }, {
+      "uid" : "580307bda699bb1a",
+      "name" : "Video",
+      "source" : "580307bda699bb1a.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.SearchTest]/[method:HouseTest()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMSLMPO"
+  }, {
+    "name" : "thread",
+    "value" : "15884@DESKTOP-EMSLMPO.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.SearchTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.SearchTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "HouseTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.SearchTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "82307169035b3253",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662386489569,
+        "stop" : 1662386497350,
+        "duration" : 7781
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77bfb0d714e2703e.json",
+  "parameterValues" : [ ]
+}
